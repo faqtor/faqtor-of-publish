@@ -33,6 +33,6 @@
   },
   "dependencies": {
     "@types/node": "^10.12.18",
-    "faqtor": "0.0.5"
+    "faqtor": "0.0.6"
   }
 }
