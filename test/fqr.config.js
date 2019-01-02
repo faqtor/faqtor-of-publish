@@ -4,7 +4,7 @@ const { cmd } = require("faqtor");
 const distFolder = "../dist";
 const lockFile = "./dist-lock.json";
 
-const makeLockFile = lock(distFolder, lockFile);
+const makeLockFile = lock(distFolder, lockFile).factor();
 const runPublish = publish(distFolder, lockFile, true);
 
 module.exports = {

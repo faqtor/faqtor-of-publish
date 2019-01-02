@@ -55,7 +55,7 @@ export const lock = (distFolder: string = "./dist", lockFile: string = "./dist-l
         return null;
     }
 
-    return faqtor.func(run);
+    return faqtor.func(run, `${distFolder}/**/*`, lockFile);
 }
 
 async function runCommand(extCmd: string, ...args: string[]): Promise<Error> {
