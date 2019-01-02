@@ -1,6 +1,6 @@
 {
   "name": "faqtor-of-publish",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "NPM publishing plugin for Faqtor build system",
   "repository": {
     "type": "git",
@@ -29,10 +29,10 @@
     "cash-mv": "^0.2.0",
     "fqr": "0.0.3",
     "rimraf": "^2.6.2",
-    "typescript": "^3.0.1"
+    "typescript": "^3.0.1",
+    "faqtor": "0.0.6"
   },
   "dependencies": {
-    "@types/node": "^10.12.18",
-    "faqtor": "0.0.6"
+    "@types/node": "^10.12.18"
   }
 }
